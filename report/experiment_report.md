@@ -1,6 +1,6 @@
 # Fashion-MNIST 实验报告
-- GitHub Repo: [请替换为你的公开 GitHub 仓库链接]
-- 模型权重下载地址: [请替换为你的 Google Drive 或其他下载链接]
+- GitHub Repo:  yushangjinghong2-commits/MLPforCV
+- 模型权重地址:  model\weights
 ## 1. 实验任务
 
 本实验使用 `NumPy` 从零实现一个单隐藏层多层感知机（MLP），在 `Fashion-MNIST` 数据集上完成 10 类服装图像分类任务。实验内容包括模型训练、超参数搜索、测试集评估、训练曲线可视化、第一层权重可视化以及错例分析。
