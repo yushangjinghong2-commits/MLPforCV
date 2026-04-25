@@ -1,0 +1,22 @@
+| Rank | hidden_dim | activation | lr | lr_decay | weight_decay | epochs | best_val_acc | run_name |
+|---:|---:|---|---:|---:|---:|---:|---:|---|
+| 1 | 512 | relu | 0.2 | 0.95 | 0.001 | 50 | 0.912833 | hd512_relu_lr0p2_decay0p95_wd0p001 |
+| 2 | 768 | relu | 0.2 | 0.95 | 0.001 | 50 | 0.912167 | hd768_relu_lr0p2_decay0p95_wd0p001 |
+| 3 | 512 | relu | 0.2 | 0.98 | 0.0 | 50 | 0.911500 | hd512_relu_lr0p2_decay0p98_wd0p0 |
+| 4 | 768 | relu | 0.1 | 0.95 | 0.001 | 50 | 0.910500 | hd768_relu_lr0p1_decay0p95_wd0p001 |
+| 5 | 256 | relu | 0.2 | 0.95 | 0.001 | 50 | 0.910333 | hd256_relu_lr0p2_decay0p95_wd0p001 |
+| 6 | 512 | relu | 0.1 | 0.98 | 0.001 | 50 | 0.910333 | hd512_relu_lr0p1_decay0p98_wd0p001 |
+| 7 | 768 | relu | 0.2 | 0.98 | 0.001 | 50 | 0.910333 | hd768_relu_lr0p2_decay0p98_wd0p001 |
+| 8 | 768 | relu | 0.2 | 1.0 | 1e-05 | 50 | 0.910000 | hd768_relu_lr0p2_decay1p0_wd1e-05 |
+| 9 | 512 | relu | 0.2 | 0.98 | 0.001 | 50 | 0.909667 | hd512_relu_lr0p2_decay0p98_wd0p001 |
+| 10 | 256 | tanh | 0.2 | 0.95 | 0.001 | 50 | 0.909333 | hd256_tanh_lr0p2_decay0p95_wd0p001 |
+| 11 | 512 | relu | 0.2 | 1.0 | 0.0001 | 50 | 0.909333 | hd512_relu_lr0p2_decay1p0_wd0p0001 |
+| 12 | 512 | relu | 0.2 | 1.0 | 1e-05 | 50 | 0.909333 | hd512_relu_lr0p2_decay1p0_wd1e-05 |
+| 13 | 512 | relu | 0.2 | 0.98 | 1e-05 | 50 | 0.909167 | hd512_relu_lr0p2_decay0p98_wd1e-05 |
+| 14 | 768 | relu | 0.1 | 0.98 | 0.001 | 50 | 0.909167 | hd768_relu_lr0p1_decay0p98_wd0p001 |
+| 15 | 768 | relu | 0.2 | 0.9 | 0.001 | 50 | 0.909167 | hd768_relu_lr0p2_decay0p9_wd0p001 |
+| 16 | 512 | relu | 0.1 | 0.95 | 0.001 | 50 | 0.909000 | hd512_relu_lr0p1_decay0p95_wd0p001 |
+| 17 | 768 | relu | 0.2 | 1.0 | 0.0001 | 50 | 0.909000 | hd768_relu_lr0p2_decay1p0_wd0p0001 |
+| 18 | 128 | relu | 0.2 | 0.95 | 0.001 | 50 | 0.908833 | hd128_relu_lr0p2_decay0p95_wd0p001 |
+| 19 | 512 | relu | 0.2 | 0.95 | 1e-05 | 50 | 0.908667 | hd512_relu_lr0p2_decay0p95_wd1e-05 |
+| 20 | 512 | relu | 0.2 | 0.98 | 0.0001 | 50 | 0.908667 | hd512_relu_lr0p2_decay0p98_wd0p0001 |

@@ -1,0 +1,6 @@
+run_name,hidden_dim,activation,best_val_acc,checkpoint_path
+hd512_relu,512,relu,0.9006666666666666,model\weights\hd512_relu_best.npz
+hd256_tanh,256,tanh,0.8986666666666666,model\weights\hd256_tanh_best.npz
+hd256_relu,256,relu,0.898,model\weights\hd256_relu_best.npz
+hd128_relu,128,relu,0.8941666666666667,model\weights\hd128_relu_best.npz
+hd256_sigmoid,256,sigmoid,0.8776666666666667,model\weights\hd256_sigmoid_best.npz
